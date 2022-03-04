@@ -219,7 +219,7 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
-  var bank=[];
+  var banco=[];
   var suma = numero;
   for(i=0; i< 10; i++ ){
     suma = suma +2;
@@ -227,13 +227,13 @@ function breakStatement(numero) {
       break;
     }
      else {
-       bank.push(suma);
+       banco.push(suma);
      }
   }
   if (i < 10){
     return "Se interrumpió la ejecución"
   }
-  return bank;
+  return banco;
 }
 
 
